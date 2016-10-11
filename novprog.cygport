@@ -1,7 +1,7 @@
 inherit qt5-qmake
 
 NAME="novprog"
-VERSION=3.0.0
+VERSION=3.1.1
 RELEASE=1
 CATEGORY="Utils"
 SUMMARY="Qt word count graphing program"
@@ -12,6 +12,5 @@ you are through your daily goal, and your total goal. Mousing over a bar in
 the graph will show a tooltip with that day's wordcount."
 HOMEPAGE="http://gottcode.org/novprog/"
 SRC_URI="http://gottcode.org/novprog/${NAME}-${VERSION}-src.tar.bz2"
-PATCH_URI="3.0.0-cygwin-cmath.patch"
 
 CYGQMAKE5_ARGS="PREFIX=/usr"
