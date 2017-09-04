@@ -1,7 +1,7 @@
 inherit qt5-qmake
 
 NAME="novprog"
-VERSION=3.1.1
+VERSION=3.1.2
 RELEASE=1
 CATEGORY="Utils"
 SUMMARY="Qt word count graphing program"
